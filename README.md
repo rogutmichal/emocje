@@ -1,6 +1,6 @@
 # Emocje – System rekomendacji oparty na emocjach w tekście
 
-## 🔎 Opis projektu
+##  Opis projektu
 
 `Emocje` to projekt w języku C# wykorzystujący **ML.NET** do analizy tekstów i przewidywania emocji wyrażanych w recenzjach lub opiniach.  
 Projekt trenuje model klasyfikacji wieloklasowej, który rozpoznaje sześć emocji:  
@@ -16,7 +16,7 @@ Model może przewidzieć top 3 emocje dla dowolnego tekstu oraz ocenić skuteczn
 
 ---
 
-## ⚙️ Funkcjonalności
+##  Funkcjonalności
 
 - Ładowanie danych treningowych, walidacyjnych i testowych z plików `.txt`.  
 - Trenowanie modelu klasyfikacji emocji przy użyciu **LightGBM** i reprezentacji n-gramów.  
@@ -26,7 +26,7 @@ Model może przewidzieć top 3 emocje dla dowolnego tekstu oraz ocenić skuteczn
 
 ---
 
-## 📂 Struktura projektu
+##  Struktura projektu
 
 ```
 emocje/
@@ -50,7 +50,7 @@ emocje/
 
 ---
 
-## 🚀 Jak uruchomić projekt
+##  Jak uruchomić projekt
 
 1. **Sklonuj repozytorium:**
 ```bash
@@ -71,7 +71,7 @@ git clone https://github.com/rogutmichal/emocje.git
 
 ---
 
-## 📊 Ewaluacja modelu
+##  Ewaluacja modelu
 
 - Raporty zawierają dokładność mikro/makro, log-loss i macierz pomyłek.  
 - Wyświetlana jest skuteczność dla każdej emocji.  
@@ -80,7 +80,7 @@ git clone https://github.com/rogutmichal/emocje.git
 
 ---
 
-## 💻 Jak działa model
+##  Jak działa model
 
 1. **Przetwarzanie tekstu:** normalizacja, tokenizacja, usuwanie stop-words, tworzenie n-gramów (1-3).  
 2. **Konwersja tokenów na wartości numeryczne (feature vectors).**  
